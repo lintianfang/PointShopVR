@@ -7,14 +7,16 @@ Our paper is published in IEEE VR 2026 via the [link](https://ieeexplore.ieee.or
 
 Please cite using:
 
-@inproceedings{lin2026pointshopvr,
-  title={PointShopVR: Immersive Authoring of Large Point Clouds in Virtual Reality},
-  author={Lin, Tianfang and McGinity, Matthew and Gumhold, Stefan},
-  booktitle={2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
-  pages={475--485},
-  year={2026},
-  organization={IEEE}
-}
+  @inproceedings{lin2026pointshopvr,
+    title={PointShopVR: Immersive Authoring of Large Point Clouds in Virtual Reality},
+    author={Lin, Tianfang and McGinity, Matthew and Gumhold, Stefan},
+    booktitle={2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+    pages={475--485},
+    year={2026},
+    organization={IEEE}
+  }
+
+Setup: Our method is implemented in C++ with OpenGL and OpenVR. Current button design is for HTC Vive Pro.
 
 Using the Integrated Build System (Windows only). Currently, the Immersive Labeling works best on Windows. A Visual Studio project for building can be generated via the dedicated build system of the CGV Framework via:[https://github.com/sgumhold/cgv/tree/develop]. Please choose develop branch.
 
