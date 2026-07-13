@@ -5,6 +5,17 @@ Our paper is published in IEEE VR 2026 via the [link](https://ieeexplore.ieee.or
 **Abstract**
  This paper presents PointShopVR, an immersive point cloud authoring system in Virtual Reality (VR) that enables intuitive creation, manipulation, and refinement of large 3D point clouds. To support real-time interaction with dense data, our system integrates a simple acceleration data structure and a continuous level-of-detail (CLOD) rendering, ensuring high frame rates in VR. PointShopVR provides a handful of authoring operations—including point addition, deletion, labeling, copy–paste, translation and deformation—each offering instant visual feedback for seamless editing. We evaluate PointShopVR through a user study in which users complete diverse editing tasks within minutes, demonstrating both the usability and effectiveness of immersive point cloud authoring. Compared to traditional desktop-based tools, PointShopVR offers enhanced accessibility, natural interaction, and immersive feedback, making it a powerful platform for large-scale 3D data exploration and creative editing in VR.
 
+Please cite using:
+
+@inproceedings{lin2026pointshopvr,
+  title={PointShopVR: Immersive Authoring of Large Point Clouds in Virtual Reality},
+  author={Lin, Tianfang and McGinity, Matthew and Gumhold, Stefan},
+  booktitle={2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  pages={475--485},
+  year={2026},
+  organization={IEEE}
+}
+
 Using the Integrated Build System (Windows only). Currently, the Immersive Labeling works best on Windows. A Visual Studio project for building can be generated via the dedicated build system of the CGV Framework via:[https://github.com/sgumhold/cgv/tree/develop]. Please choose develop branch.
 
 Recommended IDE: Visual Studio 2019 or 2022.
